@@ -1,0 +1,48 @@
+.react-grid-selection {
+  background: var(--react-grid-selection-background, white);
+  padding: 2px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  height: auto;
+}
+
+.react-grid-selection-wrapper {
+  display: flex;
+}
+
+.react-grid-selection-row {
+  display: block;
+}
+
+.react-grid-selection-cell-wrapper {
+  width: fit-content;
+  height: fit-content;
+  padding: var(--react-grid-selection-cell-padding, 1px);
+}
+.react-grid-selection-cell {
+  flex-shrink: 0;
+  margin: 1px;
+  width: var(--react-grid-selection-cell-width, 18px);
+  height: var(--react-grid-selection-cell-height, 18px);
+  border: 1px solid var(--react-grid-selection-cell-border-color, white);
+  border-radius: var(--react-grid-selection-cell-border-radius, 4px);
+}
+
+.react-grid-selection-cell-selected {
+  background-color: var(--react-grid-selection-cell-background, white);
+}
+
+.react-grid-selection-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.react-grid-selection-footer span {
+  color: var(--react-grid-selection-footer-color, #242424);
+  height: 20px;
+  padding: 5px;
+  font-weight: bold;
+}

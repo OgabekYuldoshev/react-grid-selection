@@ -1,4 +1,10 @@
 :root {
+  --react-grid-selection-cell-background: #56bf52;
+  --react-grid-selection-cell-border-color: #437a37;
+  --react-grid-selection-cell-border-radius: 4px;
+
+
+
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;

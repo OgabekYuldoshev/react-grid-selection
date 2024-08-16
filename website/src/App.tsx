@@ -4,7 +4,11 @@ const App = () => {
   return (
     <div>
       <h1>Ui Package</h1>
-      <ReactGridSelection />
+      <ReactGridSelection
+        hasFooter
+        grid={[20, 20]}
+        onSelected={(value) => alert(value)}
+      />
     </div>
   );
 };

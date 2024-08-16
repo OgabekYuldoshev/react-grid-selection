@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react-grid-selection": "workspace:*",
+    "react-grid-selection": "*",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
