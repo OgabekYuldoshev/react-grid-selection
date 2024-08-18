@@ -6,8 +6,8 @@ const App = () => {
       <h1>Ui Package</h1>
       <ReactGridSelection
         hasFooter
-        grid={[20, 20]}
-        onSelected={(value) => alert(value)}
+        grid={[10, 10]}
+        onSelected={(value) => console.log(value)}
       />
     </div>
   );

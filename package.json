@@ -3,6 +3,14 @@
   "version": "0.0.1",
   "description": "React Grid Selection Component",
   "private": "true",
+  "author": "Ogabek Yuldoshev <https://yuldashoff.uz/>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OgabekYuldoshev/react-grid-selection.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OgabekYuldoshev/react-grid-selection/issues"
+  },
   "workspaces": [
     "website",
     "."
@@ -20,7 +28,8 @@
   "scripts": {
     "build": "tsup src/index.ts",
     "dev": "tsup src/index.ts --watch",
-    "dev:website": "yarn workspace website run dev"
+    "dev:web": "yarn workspace website run dev",
+    "build:web": "yarn workspace website run build"
   },
   "peerDependencies": {
     "react": "^18.3.1",
