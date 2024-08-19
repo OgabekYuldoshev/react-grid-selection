@@ -28,8 +28,8 @@
   "scripts": {
     "build": "tsup src/index.ts",
     "dev": "tsup src/index.ts --watch",
-    "dev:web": "yarn workspace website run dev",
-    "build:web": "yarn workspace website run build"
+    "dev:web": "turbo run dev --filter=website",
+    "build:web": "turbo run build --filter=website"
   },
   "peerDependencies": {
     "react": "^18.3.1",
@@ -44,10 +44,12 @@
     "eslint-plugin-react-refresh": "^0.4.9",
     "globals": "^15.9.0",
     "tsup": "^8.2.4",
+    "turbo": "^2.0.14",
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.0.1"
   },
   "dependencies": {
     "clsx": "^2.1.1"
-  }
+  },
+  "packageManager": "yarn@1.22.22"
 }
