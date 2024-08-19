@@ -1,4 +1,3 @@
-import React from 'react'
 import { ReactGridSelection } from "react-grid-selection"
 
 const ShowCase = () => {
